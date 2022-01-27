@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#Challange Oracle Alura</title>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Portafolio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+      </nav>
+      <section class="textos-header">
+        <h1>Encripta tu contenido</h1>
+        <h2>Con crypdate</h2>
+      </section>
+    </header>
+    <main>
+      <!-- titulo-->
+      <form class="form">
+        <h2 class="form_title">Código secreto</h2>
+        <p class="form_paragraph"></p>
+        <!-- texto y botones-->
+        <div class="form_container">
+          <div class="form_group">
+            <input
+              type="text"
+              id="campoUsuario"
+              required
+              class="form_input"
+              placeholder=" Ingrese su texto aqui"
+            />
+            <label for="text" class="form_label"
+              >Solo letras minúsculas, sin acento:</label
+            >
+            <span class="form_line"></span>
+            <div id="container"></div>
+            <!-- <button class="form_bnt_1">Encriptar!</button>
+            <button class="form_bnt_2">Desencriptar!</button> -->
+          </div>
+          <div class="botones">
+            <button class="form_bnt_1">Encriptar!</button>
+            <button class="form_bnt_2">Desencriptar!</button>
+          </div>
+          <div class="form_group">
+            <input
+              type="text"
+              id="codigo"
+              required
+              class="form_input"
+              placeholder="Mensaje encriptado "
+            />
+            <div>
+              <label class="candado">🔒</label>
+            </div>
+            <span class="form_line"></span>
+            <button class="form_bnt_3">Copiar</button>
+          </div>
+          <span id="propiedad">by Diego Marulanda</span>
+        </div>
+      </form>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
